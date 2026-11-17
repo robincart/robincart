@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover everyday style with RobinCart." />
+  <title>RobinCart — Everyday Style, Effortlessly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">✨ Launch offer: 10% off your first order with code <strong>WELCOME10</strong></div>
+  <header class="site-header">
+    <a class="logo" href="#" aria-label="RobinCart home"><span class="logo-mark">N</span> robin<span>cart</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#welcome">Collections</a><a href="#shop" data-category-choice="All">Shop all</a><a href="#benefits">Why RobinCart</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="search-toggle" aria-label="Search products">⌕</button>
+      <button class="cart-button" id="cart-open" aria-label="Open shopping cart">Bag <span id="cart-count">0</span></button>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+  <div class="search-panel" id="search-panel"><input id="search-input" type="search" placeholder="Search products…" aria-label="Search products"><button id="search-clear">Clear</button></div>
+  <nav class="mobile-nav" id="mobile-nav"><a href="#welcome">Collections</a><a href="#shop" data-category-choice="All">Shop all</a><a href="#benefits">Why RobinCart</a></nav>
+
+  <main>
+    <section class="audience-landing" id="welcome">
+      <div class="audience-intro">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> WELCOME TO ROBINCART</p>
+        <h1>Your style.<br><em>Your world.</em></h1>
+        <p>Choose your collection to discover pieces picked for your vibe.</p>
+        <div class="landing-pills"><span>✦ Fresh finds</span><span>↗ Easy browsing</span><span>♡ Everyday style</span></div>
+      </div>
+      <div class="audience-cards" aria-label="Choose a shopping category">
+        <a class="audience-card audience-men" href="#men" data-category-choice="Men" aria-label="Shop men's collection">
+          <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=900&q=85" alt="Men's contemporary streetwear" fetchpriority="high">
+          <span class="audience-shade"></span><span class="audience-number">01 / COLLECTION</span>
+          <span class="audience-card-copy"><small>THE EVERYDAY EDIT</small><strong>For him<span>↗</span></strong><em>Explore men's style</em></span>
+        </a>
+        <a class="audience-card audience-women" href="#women" data-category-choice="Women" aria-label="Shop women's collection">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=85" alt="Women's contemporary fashion" loading="eager">
+          <span class="audience-shade"></span><span class="audience-number">02 / COLLECTION</span>
+          <span class="audience-card-copy"><small>THE STYLE EDIT</small><strong>For her<span>↗</span></strong><em>Explore women's style</em></span>
+        </a>
+        <a class="audience-card audience-accessories" href="#accessories" data-category-choice="Accessories" aria-label="Shop accessories collection">
+          <img src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=900&q=85" alt="Fashion accessories and finishing touches" loading="eager">
+          <span class="audience-shade"></span><span class="audience-number">03 / COLLECTION</span>
+          <span class="audience-card-copy"><small>THE FINISHING TOUCH</small><strong>Accessories<span>↗</span></strong><em>Bags, jewellery & more</em></span>
+        </a>
+      </div>
+      <div class="landing-bottom"><span><i></i> PICK A COLLECTION TO START</span><a href="#shop" data-category-choice="All">Or browse everything <b>↓</b></a></div>
+    </section>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> YOUR STYLE. YOUR EVERYDAY.</p>
+        <h1>Find your look.<br><em>Make it yours.</em></h1>
+        <p class="hero-description">Everyday style made easier. Shop men’s fashion, women’s fashion, and accessories in clearly separated collections.</p>
+        <div class="hero-buttons"><a class="button button-dark" href="#shop">Shop the collection <span>↗</span></a><a class="text-link" href="#benefits">The RobinCart promise <span>→</span></a></div>
+        <div class="hero-proof"><div class="avatar-stack"><span>J</span><span>A</span><span>M</span><span>+</span></div><p><strong>Made for your everyday</strong><br><small>Find your next wardrobe favourite</small></p></div>
+      </div>
+      <div class="hero-art fashion-hero-art">
+        <div class="fashion-photo fashion-photo-main"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1100&q=85" alt="Friends wearing contemporary street style" loading="eager"></div>
+        <div class="fashion-photo fashion-photo-small"><img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=85" alt="Modern neutral fashion look" loading="lazy"></div>
+        <div class="fashion-tag"><span>✳</span><div><strong>THE STYLE EDIT</strong><small>Everyday pieces, elevated</small></div></div>
+        <div class="fashion-orbit-label">FIND YOUR EVERYDAY FIT ↗</div>
+      </div>
+    </section>
+
+    <section class="trust-strip" id="benefits">
+      <div><span class="trust-icon">↗</span><p><strong>Style-first picks</strong><small>Everyday pieces to wear</small></p></div>
+      <div><span class="trust-icon">♡</span><p><strong>Support that cares</strong><small>Support when you need it</small></p></div>
+      <div><span class="trust-icon">⌂</span><p><strong>Easy online shopping</strong><small>A simple shopping journey</small></p></div>
+      <div><span class="trust-icon">✳</span><p><strong>Fresh style ideas</strong><small>New looks, regularly</small></p></div>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="section-heading"><div><p class="eyebrow">THE ROBINCART EDIT</p><h2>Shop by <em>your style.</em></h2></div><a href="#shop" class="text-link" id="view-all">View all products <span>→</span></a></div>
+      <div class="category-row" id="category-row">
+        <button class="category-chip active" data-category="All">All products</button>
+        <button class="category-chip" data-category="Men">Men</button>
+        <button class="category-chip" data-category="Women">Women</button>
+        <button class="category-chip" data-category="Accessories">Accessories</button>
+        <button class="category-chip" data-category="Trending Now">Trending now ✦</button>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+      <div class="empty-state" id="empty-state" hidden><span>⌕</span><h3>No finds just yet</h3><p>Try another search or category.</p></div>
+    </section>
+
+    <section class="promo-banner">
+      <div class="promo-copy"><p class="eyebrow">A LITTLE STYLE BONUS</p><h2>Your first look<br>comes with <em>a perk.</em></h2><p>Take 10% off your first order and find a new favourite.</p><a href="#shop" class="button button-light">Shop the collection <span>↗</span></a></div>
+      <div class="promo-graphic"><div class="promo-circle"></div><div class="gift-box"><div class="gift-lid"></div><div class="gift-ribbon"></div></div><span class="promo-star">✳</span><span class="promo-spark">✦</span></div>
+    </section>
+
+    <section class="reviews-section" id="reviews">
+      <p class="eyebrow">STYLE NOTES</p><h2>Good style. <em>Good energy.</em></h2>
+      <div class="review-grid">
+        <article class="review-card"><div class="stars">★★★★★</div><p>“Such a clean shopping experience. Found something genuinely useful that I didn’t know I needed.”</p><div class="review-person"><span class="review-avatar">P</span><div><strong>Priya S.</strong><small>Sample review · Replace before launch</small></div></div></article>
+        <article class="review-card featured-review"><div class="stars">★★★★★</div><p>“Love the product selection and the little details. Everything feels simple and thoughtfully picked.”</p><div class="review-person"><span class="review-avatar">R</span><div><strong>Rahul K.</strong><small>Sample review · Replace before launch</small></div></div></article>
+        <article class="review-card"><div class="stars">★★★★★</div><p>“Easy to browse, easy to order, and I found a great gift. I’ll be back to see what’s new.”</p><div class="review-person"><span class="review-avatar">A</span><div><strong>Ananya M.</strong><small>Sample review · Replace before launch</small></div></div></article>
+      </div>
+      <p class="demo-note">Sample content only. Replace with genuine customer reviews before launch.</p>
+    </section>
+
+    <section class="newsletter">
+      <div><p class="eyebrow">THE ROBINCART LIST</p><h2>Stay in the <em>know.</em></h2><p>Get new arrivals, outfit ideas, and occasional offers.</p></div>
+      <form id="newsletter-form"><label class="sr-only" for="newsletter-email">Email address</label><input id="newsletter-email" type="email" placeholder="Your email address" required><button class="button button-dark" type="submit">Count me in <span>→</span></button><small id="newsletter-message">No spam. Just the good stuff.</small></form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-main"><div><a class="logo footer-logo" href="#"><span class="logo-mark">N</span> robin<span>cart</span></a><p>Everyday style, thoughtfully picked.</p></div><div class="footer-links"><div><strong>Explore</strong><a href="#shop">Shop all</a><a href="#benefits">Our promise</a><a href="#reviews">Reviews</a></div><div><strong>Need help?</strong><a href="mailto:hello@robincart.in">Contact us</a><a href="#">Shipping policy</a><a href="#">Returns policy</a></div></div></div><div class="footer-bottom"><span>© 2026 RobinCart. Starter storefront.</span><span>Made for your everyday ✳</span></div></footer>
+
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-header"><div><p class="eyebrow">YOUR SELECTION</p><h2>Your bag <span id="drawer-count">(0)</span></h2></div><button class="close-cart" id="cart-close" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-empty" id="cart-empty"><span>♡</span><h3>Your bag is taking a break.</h3><p>Add a few wardrobe favourites to get started.</p><button class="button button-dark" id="continue-shopping">Explore products</button></div>
+    <div class="cart-footer" id="cart-footer"><div class="subtotal"><span>Subtotal</span><strong id="cart-subtotal">₹0</strong></div><p>Shipping and taxes calculated at checkout.</p><button class="button button-dark checkout-button" id="checkout-button">Continue to checkout <span>→</span></button><small>Demo only — checkout and payments are not connected.</small></div>
+  </aside>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
